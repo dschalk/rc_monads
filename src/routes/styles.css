@@ -342,7 +342,7 @@ button:focus:not(:focus-visible{
   }
 
 .tao{
-  margin-left: 3%;
+  text-indent: 3%;
 }
 
 ul{

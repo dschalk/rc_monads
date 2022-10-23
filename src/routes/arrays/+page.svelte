@@ -4,7 +4,6 @@
 
 	import { merge_ssr_styles } from 'svelte/internal';
 	import { fade } from 'svelte/transition';
-    import array from '$lib/Screenshot_async.png'
 
     var log = console.log;
     function ret () {};
@@ -82,7 +81,7 @@ var m4 = M2([3]);`;
 </style>
 
 <svelte:head>
-	<title>Arrys in monads</title>
+	<title>Arrays in monads</title>
 </svelte:head>
 <br />
 <div>**************************************************************************</div>
@@ -101,8 +100,7 @@ var m4 = M2([3]);`;
 <pre>{code3}</pre>
 <p>Here's the result of m4(v=>v**3)(v=>v+v)(v=>v-12)(ret): [{m2(ret).join(", ")}].</p>
 <p>The state of the solitaire  game of Score is maintined in m2 = M(x) where x is an array of seven arrays.</p>
-<p>The functions shown on this page were tested in Firefox Developer Tools, which is loaded in the Firefox browser by pressing F12. Here's a screenshot:  </p>
-<img src={array}>
+
 
 
 

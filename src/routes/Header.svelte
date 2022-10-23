@@ -15,6 +15,10 @@
 				<button on:click={()=>goto('/arrays')} >Arrays</button>
 
 				<button on:click={()=>goto('/score')}>Score</button>
+
+				<button on:click={()=>goto('/async')}>Async</button>
+
+				<button on:click={()=>goto('/category')}>Catagory Theory</button>
 		</ul>
 	</nav>
 

@@ -928,7 +928,7 @@ Introduction To RC_Monads
 <p>This presentation explores the potential usefulness of recursive closures created by calling M(x) where, respectively, M and ret are:</p>  
 <pre>{monad}</pre> 
 <p>These recursive closures are called "rc_monads". Note: periods go outside of quotation marks surrounding function names, URLs, and any other text where a period could possibly cause ambiguity. </p>	
-<p>The function returned by calling M(x) operates on functions that operate on x in M(x). There are no restrictions on what x can be; for example, it can be a primitive value, an objects, or telescoping copies of M(x). The value of x in the <a style = "margin-left:8px" href="./score">Solitaire Game of Score</a>, listed as "Score" in the menu (above), is an array of eight arrays. </p>
+<p>The function returned by calling M(x) operates on functions that operate on x in M(x). There are no restrictions on what x can be; for example, it can be a primitive value, an object, or telescoping copies of M(x). The value of x in the <a style = "margin-left:8px" href="./score">Solitaire Game of Score</a>, listed as "Score" in the menu (above), is an array of eight arrays. </p>
 	
 <p>M(x) can work anonymously or be named as in "const rcm = M(x)." In that case, rcm(some function) returns itself each time it executes, with one exception. It occurs when "some function" (above) is named "ret". What ret() does or doesn't do is of no consequence since it never gets called. The name "ret" causes x in M(x) to be returned instead of The rcm-M(x) closure remains available indefinitely for further action on x. 	</p>
 
